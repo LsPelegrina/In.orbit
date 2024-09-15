@@ -1,0 +1,19 @@
+POST http://localhost:3000/goals
+Content-Type: application/json
+
+{
+  "title": "Aprender Node.js",
+  "desiredWeeklyFrequency": 2
+}
+
+###
+
+POST http://localhost:3000/completions
+Content-Type: application/json
+
+{
+  "goalId": "wmsz96es3bzc1f3z62i1anqf"
+}
+
+###
+GET http://localhost:3000/pending-goals
