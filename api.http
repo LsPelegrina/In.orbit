@@ -2,7 +2,7 @@ POST http://localhost:3000/goals
 Content-Type: application/json
 
 {
-  "title": "Aprender Node.js",
+  "title": "Aprender Node.js y Express desde cero",
   "desiredWeeklyFrequency": 2
 }
 
@@ -12,8 +12,12 @@ POST http://localhost:3000/completions
 Content-Type: application/json
 
 {
-  "goalId": "wmsz96es3bzc1f3z62i1anqf"
+  "goalId": "iboiltyxydvdg14a2jpo8uba"
 }
 
 ###
 GET http://localhost:3000/pending-goals
+
+
+###
+GET http://localhost:3000/summary
